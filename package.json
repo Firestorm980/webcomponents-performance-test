@@ -15,9 +15,10 @@
     "@babel/preset-env": "^7.7.7",
     "@babel/preset-react": "^7.7.4",
     "@wordpress/babel-preset-default": "^4.8.0",
+    "babel-eslint": "^10.0.3",
     "eslint": "^6.8.0",
-    "parcel-bundler": "^1.12.4",
-    "stylelint": "^12.0.1"
+    "eslint-plugin-react": "^7.17.0",
+    "parcel-bundler": "^1.12.4"
   },
   "scripts": {
     "serve": "parcel ./src/**/*.html",

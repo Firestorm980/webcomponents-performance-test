@@ -1,19 +1,22 @@
 import React from 'react';
 import Counter from './Counter';
 
+/**
+ * Component
+ */
 const App = () => {
 
-    const counters = [];
+	const counters = [];
 
-    for ( let index = 0; index < 1000; index++ ) {
-        counters.push(<Counter />);
-    }
+	for ( let index = 0; 1000 > index; index++ ) {
+		counters.push( <Counter /> );
+	}
 
-    return (
-        <div className="app">
-            {counters}
-        </div>
-    )
-}
+	return (
+		<div className="app">
+			{counters}
+		</div>
+	);
+};
 
 export default App;
