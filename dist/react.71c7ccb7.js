@@ -88,4 +88,4 @@ var r=require("./arrayWithHoles"),e=require("./iterableToArrayLimit"),i=require(
 },{"@wordpress/element":"m04e","react":"n8MK","./Counter":"TJHd"}],"hYfm":[function(require,module,exports) {
 "use strict";var e=require("@wordpress/element"),r=n(require("react")),t=n(require("react-dom")),u=n(require("./components/App"));function n(e){return e&&e.__esModule?e:{default:e}}t.default.render((0,e.createElement)(u.default,null),document.getElementById("root"));
 },{"@wordpress/element":"m04e","react":"n8MK","react-dom":"NKHc","./components/App":"Aip5"}]},{},["hYfm"], null)
-//# sourceMappingURL=/react.71c7ccb7.js.map
+//# sourceMappingURL=dist/react.71c7ccb7.js.map
