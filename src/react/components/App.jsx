@@ -9,7 +9,7 @@ const App = () => {
 	const counters = [];
 
 	for ( let index = 0; 1000 > index; index++ ) {
-		counters.push( <Counter /> );
+		counters.push( <Counter key={index} /> );
 	}
 
 	return (
