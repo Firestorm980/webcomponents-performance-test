@@ -6,19 +6,22 @@
   "dependencies": {
     "@webcomponents/webcomponentsjs": "^2.4.0",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "vue": "^2.6.11",
+    "vue-hot-reload-api": "^2.3.4"
   },
   "devDependencies": {
     "@10up/eslint-config": "^1.0.9",
-    "@10up/stylelint-config": "^1.0.9",
     "@babel/core": "^7.7.7",
     "@babel/preset-env": "^7.7.7",
     "@babel/preset-react": "^7.7.4",
+    "@vue/component-compiler-utils": "^3.1.0",
     "@wordpress/babel-preset-default": "^4.8.0",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.8.0",
     "eslint-plugin-react": "^7.17.0",
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "vue-template-compiler": "^2.6.11"
   },
   "scripts": {
     "serve": "parcel ./src/**/*.html",
